@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  background-color: azure;
 }
 
 #app {
@@ -15,7 +16,7 @@ body {
 }
 
 #header, #content, #sidenav, #footer {
-  border: 1px solid green;
+  border: 1px solid rgb(49, 100, 209);
 }
 
 #header {
@@ -36,8 +37,14 @@ body {
 .block {
   width: 300px;
   height: 300px;
-  border: 1px solid blue;
+  border: 2px solid rgb(64, 139, 168);
   border-radius: 15px;
   padding: 20px;
   margin: 10px;
+  background-color: rgb(184, 236, 238);
+}
+.comida {
+  text-align: center;
+  background-color: rgb(198, 235, 223);
+  display: flex;
 }
