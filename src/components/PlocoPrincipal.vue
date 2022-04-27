@@ -6,12 +6,12 @@ export default {
 </script>
 <template>
   <main id="content">
-    <ArtiGo class="comida" />
-    <ArtiGo class="comida" />
-    <ArtiGo class="comida" />
-    <ArtiGo class="comida" />
-    <ArtiGo class="comida" />
-    <ArtiGo class="comida" />
+    <ArtiGo titulo="Bloco1" :nomes="['Heloisa', 'Rafaela']" />
+    <ArtiGo titulo="URGENTE" class="alerta" :nomes="['ligia', 'joao']" />
+    <ArtiGo />
+    <ArtiGo class="alerta" />
+    <ArtiGo />
+    <ArtiGo />
   </main>
 </template>
 <style></style>
